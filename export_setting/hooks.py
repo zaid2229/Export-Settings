@@ -1,4 +1,11 @@
 from . import __version__ as app_version
+# from  export_setting.export_setting.doctype.export_settings.export_overrides import get_doctype_fields
+
+import frappe
+# from  export_setting.export_setting.doctype.export_settings.export_overrides import get_doctype_fields
+# from  export_setting.export_setting.doctype.export_settings.apply_export_settings import apply_export_settings
+
+
 
 app_name = "export_setting"
 app_title = "Export Setting"
@@ -15,22 +22,43 @@ app_license = "MIT"
 # app_include_js = "/assets/export_setting/js/export_setting.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/export_setting/css/export_setting.css"
-# web_include_js = "/assets/export_setting/js/export_setting.js"
+# web_include_css = ["/assets/export_setting/js/custom_export11.js"]
+# web_include_js = "/assets/export_setting/js/ce4.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "export_setting/public/scss/website"
+# def boot_session(bootinfo):
+#     frappe.core.doctype.data_export.exporter.export_data = get_doctype_fields
+
+
+# override_whitelisted_methods = {
+#     "frappe.core.doctype.data_export.exporter.export_data": get_doctype_fields
+# }
+
+# doc_events = {
+#     "Data Export": {
+#         "before_insert": apply_export_settings,  # Reference your hook function here
+#     }
+# }
 
 # include js, css files in header of web form
-# webform_include_js = {"doctype": "public/js/doctype.js"}
+# webform_include_js = {"doctype": "public/js/data_export1.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
+app_include_js = ["/assets/export_setting/js/dd10.js", "/assets/export_setting/js/cetest9.js"]
+web_include_css = ["/assets/export_setting/css/bt.css"]
+
+# doctype_js ={
+#     "Data Export" : "public/js/data_export1.js"
+# }
+
+
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+# doctype_list_js = {"doctype" : "/assets/export_setting/js/custom_export10.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
