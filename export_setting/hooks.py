@@ -48,11 +48,11 @@ app_license = "MIT"
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 app_include_js = ["/assets/export_setting/js/dd10.js", "/assets/export_setting/js/cetest9.js"]
-web_include_css = ["/assets/export_setting/css/bt.css"]
 
 # doctype_js ={
 #     "Data Export" : "public/js/data_export1.js"
 # }
+
 
 
 
