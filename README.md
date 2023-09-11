@@ -38,14 +38,14 @@ This app allows you to predefine the fields you want to export from any given do
 
 ### **Usage**
 
-#### - Creating a new Export Setting
+#### -Creating a new Export Setting
   
     1. Go to the 'Export Settings' doctype.
     1. Select the doctype you want to configure.
     1. Check the fields that should be prechecked during export.
     1. Save the document.
        
-#### + Exporting Data
+#### +Exporting Data
   
     1. Navigate to the doctype for which you've set the export settings.
     1. Click on the 'Export' button.
