@@ -51,7 +51,11 @@ This app allows you to predefine the fields you want to export from any given do
     2. Click on the 'Export' button.
     3. Notice that the fields specified in the 'Export Settings' are prechecked.
 
-### Screenshots
+### Snapshots
+
+
+
+
 
 ### License
 
