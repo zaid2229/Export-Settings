@@ -11,7 +11,7 @@
   "dynamic_field_container"
  ],
  "naming_rule" : "By fieldname",
- "auto_name":"field:reference_doctype",
+ "autoname":"field:reference_doctype",
  
  "fields": [
   {
