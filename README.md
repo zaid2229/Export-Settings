@@ -55,6 +55,12 @@ This app allows you to predefine the fields you want to export from any given do
 
 
 
+https://github.com/zaid2229/Export-Settings/assets/60132555/db43763b-e0f2-41fc-99c7-0185b927effc
+
+
+
+
+
 
 
 ### License
