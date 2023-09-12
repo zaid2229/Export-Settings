@@ -21,6 +21,12 @@
    "fieldname": "dynamic_field_container",
    "fieldtype": "HTML",
    "label": "Preselected Fields"
+  },
+  {
+    "fieldname": "hidden_field",
+   "fieldtype": "Data",
+   "label": "Hidden Field",
+   "hidden": 1
   }
  ],
  "index_web_pages_for_search": 1,
