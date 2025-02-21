@@ -52,5 +52,5 @@ def save_selected_fields(parent, data, doctype):
             'is_selected': field['is_selected'],
             'reference_doctype': doctype,
         })
-        doc.insert()
+        doc.insert(ignore_permissions=True)
 
